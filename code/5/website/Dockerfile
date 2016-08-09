@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
-MAINTAINER James Turnbull "james@example.com"
-ENV REFRESHED_AT 2014-06-01
+FROM dduyoung/ubuntu:14.04
+MAINTAINER Evans Yang "ytfei01@foxmail.com"
+ENV REFRESHED_AT 2016-08-09
 
 RUN apt-get update
 RUN apt-get -y -q install nginx
